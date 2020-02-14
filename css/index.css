@@ -240,6 +240,10 @@ div.mid section {
     margin-top: 20px;
 }
 
+div.mid section img {
+    margin-bottom: 10px;
+}
+
 div.mid section button {
     align-self: flex-start;
 	background-color: #ffffff;
