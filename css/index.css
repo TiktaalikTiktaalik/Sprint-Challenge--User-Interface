@@ -236,7 +236,7 @@ div.about p {
 
 div.mid section {
     border-bottom: black dotted 3px;
-    width: 380px;
+    width: 370px;
     margin-top: 20px;
 }
 
@@ -258,6 +258,7 @@ div.mid section img {
 div.mid {
     display: flex;
     flex-direction: column;
+    margin-top: -30px;
 }
 
 div.mid .top, div.mid .bottom{
@@ -274,5 +275,5 @@ div.bottom1 {
 }
 
 div.container1 {
-	margin: 10px;
+	margin: 20px;
 }
