@@ -227,7 +227,7 @@ div.head img.jumbo-about-img {
 }
 
 div.about {
-    border-bottom: black dotted 3px;
+    border-bottom: black dashed 1px;
 }
 
 div.about p {
@@ -235,7 +235,7 @@ div.about p {
 }
 
 div.mid section {
-    border-bottom: black dotted 3px;
+    border-bottom: black dashed 1px;
     width: 370px;
     margin-top: 20px;
 }
@@ -243,7 +243,7 @@ div.mid section {
 div.mid section button {
     align-self: flex-start;
 	background-color: #ffffff;
-    border: black solid 2px;
+    border: black solid 1px;
     font-size: 14px;
 	border-radius: 8px;
 	padding: 7px 20px;
