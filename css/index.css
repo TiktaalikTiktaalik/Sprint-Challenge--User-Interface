@@ -31,6 +31,29 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+header div a {
+    color: black;
+    text-decoration: none
+}
+
+header img.jumbo-img{
+    margin-bottom: 20px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -104,12 +127,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +205,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html */
+
+div.head {
+    display: flex;
+    flex-direction: column;
+}
+
+div.head div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+div.head img.jumbo-about-img {
+    margin-bottom: 20px;
+}
+
+div.about {
+    border-bottom: black dotted 3px;
+}
+
+div.about p {
+    margin-bottom: 20px;
+}
+
+div.mid section {
+    border-bottom: black dotted 3px;
+    width: 380px;
+    margin-top: 20px;
+}
+
+div.mid section button {
+    align-self: flex-start;
+	background-color: #ffffff;
+    border: black solid 1px;
+    font-size: 13px;
+	border-radius: 5px;
+	padding: 5px 20px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+div.mid section img {
+    margin-top: 20px;
+}
+
+div.mid {
+    display: flex;
+    flex-direction: column;
+}
+
+div.mid .top, div.mid .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.bottom1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+div.container1 {
+	margin: 10px;
 }
